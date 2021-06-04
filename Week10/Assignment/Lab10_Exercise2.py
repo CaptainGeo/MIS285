@@ -34,9 +34,9 @@ class Person:
         return self.__name + ', '+ str(self.__age) + '\n' + self.__address + ' \n' + self.__phone
 
 def main():
-    me = Person('A. H.', '9739 NE Stephenson St., Portland OR', 22, '503-975-3084')
+    me = Person('A. H.', '9739 NE 57th Ave., Portland OR', 22, '503-975-3084')
     friend1 = Person('Ben McHenry', '28720 NW Poplar Rd., Portland OR', 21, '971-555-1038')
-    friend2 = Person('Matthew Traff', '909 SW Alameda Dr., Portland OR', 22, '971-222-0234')
+    friend2 = Person('Matthew Traff', '92546 SW Alameda Dr., Portland OR', 22, '971-222-0234')
 
     print(me)
     print(friend1)
