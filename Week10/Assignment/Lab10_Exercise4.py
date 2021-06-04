@@ -14,7 +14,7 @@ def printDict(dict):
 
 def initDataFile(filename):
     print('  -> Data file: ', filename,' not found.',sep='')
-    print('  -> Generating data...',sep='')
+    print('  -> Generating EXAMPLE data...',sep='')
     employee1 = Employee.Employee('Susan Meyers', 47899, 'Accounting', 'Vice President')
     employee2 = Employee.Employee('Mark Jones', 39119, 'IT', 'Programmer')
     employee3 = Employee.Employee('Joy Rogers', 81774, 'Manufacturing', 'Engineer')
